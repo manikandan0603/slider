@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @reading.user %>
+</p>
+
+<p>
+  <strong>Main slider values:</strong>
+  <%= @reading.main_slider_values %>
+</p>
+
+<p>
+  <strong>Sub slider values:</strong>
+  <%= @reading.sub_slider_values %>
+</p>
+
+<%= link_to 'Edit', edit_reading_path(@reading) %> |
+<%= link_to 'Back', readings_path %>
